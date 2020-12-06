@@ -1,0 +1,7 @@
+const cols = ["Account_Level", "Assists", "Camps_Cleared", "Damage_Done_In_Hand", "Damage_Done_Magical", "Damage_Done_Physical", "Damage_Mitigated", "Damage_Player", "Damage_Taken", "Damage_Taken_Magical", "Damage_Taken_Physical", "Deaths", "Distance_Traveled", "Gold_Earned","Gold_Per_Minute", "Healing", "Healing_Player_Self", "Wards_Placed", "Kills_Player", "Mastery_Level", "Towers_Destroyed"]
+
+const agg = {}
+
+cols.forEach(col => {agg["avg_"+col] = {"avg": {"field": col}}})
+
+console.log(JSON.stringify(agg, null, 2))

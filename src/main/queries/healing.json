@@ -1,0 +1,7 @@
+{
+  "query": {
+    "terms": {
+      "referenceName": ["Aphrodite", "Baron Samedi", "Chang'e", "Guan Yu", "Hel", "Horus", "Ra", "Sylvanus", "Terra", "Yemoja"]
+    }
+  }
+}

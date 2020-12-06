@@ -1,0 +1,110 @@
+{
+  "size": 0,
+  "aggs": {
+    "avg_Account_Level": {
+      "avg": {
+        "field": "Account_Level"
+      }
+    },
+    "avg_Assists": {
+      "avg": {
+        "field": "Assists"
+      }
+    },
+    "avg_Camps_Cleared": {
+      "avg": {
+        "field": "Camps_Cleared"
+      }
+    },
+    "avg_Damage_Done_In_Hand": {
+      "avg": {
+        "field": "Damage_Done_In_Hand"
+      }
+    },
+    "avg_Damage_Done_Magical": {
+      "avg": {
+        "field": "Damage_Done_Magical"
+      }
+    },
+    "avg_Damage_Done_Physical": {
+      "avg": {
+        "field": "Damage_Done_Physical"
+      }
+    },
+    "avg_Damage_Mitigated": {
+      "avg": {
+        "field": "Damage_Mitigated"
+      }
+    },
+    "avg_Damage_Player": {
+      "avg": {
+        "field": "Damage_Player"
+      }
+    },
+    "avg_Damage_Taken": {
+      "avg": {
+        "field": "Damage_Taken"
+      }
+    },
+    "avg_Damage_Taken_Magical": {
+      "avg": {
+        "field": "Damage_Taken_Magical"
+      }
+    },
+    "avg_Damage_Taken_Physical": {
+      "avg": {
+        "field": "Damage_Taken_Physical"
+      }
+    },
+    "avg_Deaths": {
+      "avg": {
+        "field": "Deaths"
+      }
+    },
+    "avg_Distance_Traveled": {
+      "avg": {
+        "field": "Distance_Traveled"
+      }
+    },
+    "avg_Gold_Earned": {
+      "avg": {
+        "field": "Gold_Earned"
+      }
+    },
+    "avg_Gold_Per_Minute": {
+      "avg": {
+        "field": "Gold_Per_Minute"
+      }
+    },
+    "avg_Healing": {
+      "avg": {
+        "field": "Healing"
+      }
+    },
+    "avg_Healing_Player_Self": {
+      "avg": {
+        "field": "Healing_Player_Self"
+      }
+    },
+    "avg_Wards_Placed": {
+      "avg": {
+        "field": "Wards_Placed"
+      }
+    },
+    "avg_Kills_Player": {
+      "avg": {
+        "field": "Kills_Player"
+      }
+    },
+    "avg_Mastery_Level": {
+      "avg": {
+        "field": "Mastery_Level"
+      }
+    },
+    "avg_Towers_Destroyed": {
+      "avg": {
+        "field": "Towers_Destroyed"
+      }
+    }
+  }
+}

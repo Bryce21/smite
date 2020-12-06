@@ -1,0 +1,111 @@
+{
+  "size": 0,
+  "aggs": {
+    "medianAccount_Level": {
+      "median_absolute_deviation": {
+        "field": "Account_Level"
+      }
+    },
+    "medianAssists": {
+      "median_absolute_deviation": {
+        "field": "Assists"
+      }
+    },
+    "medianCamps_Cleared": {
+      "median_absolute_deviation": {
+        "field": "Camps_Cleared"
+      }
+    },
+    "medianDamage_Done_In_Hand": {
+      "median_absolute_deviation": {
+        "field": "Damage_Done_In_Hand"
+      }
+    },
+    "medianDamage_Done_Magical": {
+      "median_absolute_deviation": {
+        "field": "Damage_Done_Magical"
+      }
+    },
+    "medianDamage_Done_Physical": {
+      "median_absolute_deviation": {
+        "field": "Damage_Done_Physical"
+      }
+    },
+    "medianDamage_Mitigated": {
+      "median_absolute_deviation": {
+        "field": "Damage_Mitigated"
+      }
+    },
+    "medianDamage_Player": {
+      "median_absolute_deviation": {
+        "field": "Damage_Player"
+      }
+    },
+    "medianDamage_Taken": {
+      "median_absolute_deviation": {
+        "field": "Damage_Taken"
+      }
+    },
+    "medianDamage_Taken_Magical": {
+      "median_absolute_deviation": {
+        "field": "Damage_Taken_Magical"
+      }
+    },
+    "medianDamage_Taken_Physical": {
+      "median_absolute_deviation": {
+        "field": "Damage_Taken_Physical"
+      }
+    },
+    "medianDeaths": {
+      "median_absolute_deviation": {
+        "field": "Deaths"
+      }
+    },
+    "medianDistance_Traveled": {
+      "median_absolute_deviation": {
+        "field": "Distance_Traveled"
+      }
+    },
+    "medianGold_Earned": {
+      "median_absolute_deviation": {
+        "field": "Gold_Earned"
+      }
+    },
+    "medianGold_Per_Minute": {
+      "median_absolute_deviation": {
+        "field": "Gold_Per_Minute"
+      }
+    },
+    "medianHealing": {
+      "median_absolute_deviation": {
+        "field": "Healing"
+      }
+    },
+    "medianHealing_Player_Self": {
+      "median_absolute_deviation": {
+        "field": "Healing_Player_Self"
+      }
+    },
+    "medianWards_Placed": {
+      "median_absolute_deviation": {
+        "field": "Wards_Placed"
+      }
+    },
+    "medianKills_Player": {
+      "median_absolute_deviation": {
+        "field": "Kills_Player"
+      }
+    },
+    "medianMastery_Level": {
+      "median_absolute_deviation": {
+        "field": "Mastery_Level"
+      }
+    },
+    "medianTowers_Destroyed": {
+      "median_absolute_deviation": {
+        "field": "Towers_Destroyed"
+      }
+    }
+  }
+
+}

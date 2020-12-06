@@ -1,0 +1,23 @@
+{
+  "size": 0,
+  "aggs": {
+    "god_agg": {
+      "terms": {
+        "field": "Reference_Name"
+      },
+      "aggs": {
+        "avg_Damage_Done_Magical": {
+          "avg": {
+            "field": "Damage_Done_Magical"
+          }
+        },
+        "avg_Damage_Done_Physical": {
+          "avg": {
+            "field": "Damage_Done_Physical"
+          }
+        }
+      }
+    }
+
+  }
+}
